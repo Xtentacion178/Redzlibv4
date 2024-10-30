@@ -732,7 +732,7 @@ function redzLib:MakeWindow(Configs)
     if not WaitMinimize then
       WaitMinimize = true
       Window.Dialog:Create({
-        Title = "Are you sure you want to close this script??",
+        Title = "Você tem certeza de que deseja fechar o SHNMAXHUB?",
         Confirm = {
           Text = "Close",
           Callback = function()
